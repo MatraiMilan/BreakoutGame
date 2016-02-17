@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPontok" targetNamespace="http://tempuri.org/dsPontok.xsd" xmlns:mstns="http://tempuri.org/dsPontok.xsd" xmlns="http://tempuri.org/dsPontok.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPontok" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPontok" msprop:Generator_UserDSName="dsPontok">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtPontszamok" msprop:Generator_TableClassName="dtPontszamokDataTable" msprop:Generator_TableVarName="tabledtPontszamok" msprop:Generator_TablePropName="dtPontszamok" msprop:Generator_RowDeletingName="dtPontszamokRowDeleting" msprop:Generator_RowChangingName="dtPontszamokRowChanging" msprop:Generator_RowEvHandlerName="dtPontszamokRowChangeEventHandler" msprop:Generator_RowDeletedName="dtPontszamokRowDeleted" msprop:Generator_UserTableName="dtPontszamok" msprop:Generator_RowChangedName="dtPontszamokRowChanged" msprop:Generator_RowEvArgName="dtPontszamokRowChangeEvent" msprop:Generator_RowClassName="dtPontszamokRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Név" msprop:Generator_ColumnVarNameInTable="columnNév" msprop:Generator_ColumnPropNameInRow="Név" msprop:Generator_ColumnPropNameInTable="NévColumn" msprop:Generator_UserColumnName="Név" type="xs:string" />
+              <xs:element name="Pontszám" msprop:Generator_ColumnVarNameInTable="columnPontszám" msprop:Generator_ColumnPropNameInRow="Pontszám" msprop:Generator_ColumnPropNameInTable="PontszámColumn" msprop:Generator_UserColumnName="Pontszám" type="xs:int" />
+              <xs:element name="Idő" msprop:Generator_ColumnVarNameInTable="columnIdő" msprop:Generator_ColumnPropNameInRow="Idő" msprop:Generator_ColumnPropNameInTable="IdőColumn" msprop:Generator_UserColumnName="Idő" type="xs:string" minOccurs="0" />
+              <xs:element name="Dátum" msprop:Generator_ColumnVarNameInTable="columnDátum" msprop:Generator_ColumnPropNameInRow="Dátum" msprop:Generator_ColumnPropNameInTable="DátumColumn" msprop:Generator_UserColumnName="Dátum" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
